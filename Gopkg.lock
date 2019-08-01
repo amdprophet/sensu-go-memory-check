@@ -2,6 +2,14 @@
 
 
 [[projects]]
+  digest = "1:e92f5581902c345eb4ceffdcd4a854fb8f73cf436d47d837d1ec98ef1fe0a214"
+  name = "github.com/StackExchange/wmi"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "5d049714c4a64225c3c79a7cf7d02f7fb5b96338"
+  version = "1.0.0"
+
+[[projects]]
   digest = "1:660af934d331e79d29317ffd5c76fceedaa1249167b1ee461d284c58d53291c6"
   name = "github.com/coreos/etcd"
   packages = [
@@ -28,6 +36,17 @@
   pruneopts = "UT"
   revision = "d7c2918981322d4d437f7a52f3a15c7ec5a4f488"
   version = "v1.0.0"
+
+[[projects]]
+  digest = "1:440028f55cb322d8cb5b9d5ebec298a00b7d74690a658fe6b1c0c0b44341bfae"
+  name = "github.com/go-ole/go-ole"
+  packages = [
+    ".",
+    "oleutil",
+  ]
+  pruneopts = "UT"
+  revision = "97b6244175ae18ea6eef668034fd6565847501c9"
+  version = "v1.2.4"
 
 [[projects]]
   digest = "1:bfc758d5a03d57d97226fac6934551c01bd76612adb119c177395b057a0a46db"
@@ -106,6 +125,17 @@
   revision = "2daf9d442deec0afd2c6f53c183460e879a10646"
 
 [[projects]]
+  digest = "1:e6c8c90355ae8472fa4bc19ab35c202b7e2561ba4c41d483d0fa072391ba0b9a"
+  name = "github.com/shirou/gopsutil"
+  packages = [
+    "internal/common",
+    "mem",
+  ]
+  pruneopts = "UT"
+  revision = "4c8b404ee5c53b04b04f34b1744a26bf5d2910de"
+  version = "v2.19.6"
+
+[[projects]]
   digest = "1:645cabccbb4fa8aab25a956cbcbdf6a6845ca736b2c64e197ca7cbb9d210b939"
   name = "github.com/spf13/cobra"
   packages = ["."]
@@ -139,9 +169,12 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:9399de11945e643d7131cf070736122b76800d92d57a80494bd9a4e73e6979f3"
+  digest = "1:b9dceb1408ba5105803d5859193bc7d89ac3199b611cf8681dbaa0aa09c10d9c"
   name = "golang.org/x/sys"
-  packages = ["unix"]
+  packages = [
+    "unix",
+    "windows",
+  ]
   pruneopts = "UT"
   revision = "70b957f3b65e069b4930ea94e2721eefa0f8f695"
 
@@ -232,6 +265,7 @@
   analyzer-version = 1
   input-imports = [
     "github.com/sensu/sensu-go/types",
+    "github.com/shirou/gopsutil/mem",
     "github.com/spf13/cobra",
   ]
   solver-name = "gps-cdcl"
