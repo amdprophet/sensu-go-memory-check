@@ -13,7 +13,7 @@ require (
 	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
 	github.com/robfig/cron v0.0.0-20171101201047-2315d5715e36
 	github.com/sensu/sensu-go v0.0.0-20181130214924-2daf9d442dee
-	github.com/shirou/gopsutil v2.18.12+incompatible // indirect
+	github.com/shirou/gopsutil v2.18.12+incompatible
 	github.com/spf13/cobra v0.0.3
 	github.com/spf13/pflag v1.0.3
 	golang.org/x/net v0.0.0-20181201002055-351d144fa1fc

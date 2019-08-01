@@ -30,8 +30,8 @@ func main() {
 //Set up our flags for the command. Note that we have time duration defaults for warning & critical
 func configureRootCommand() *cobra.Command {
 	cmd := &cobra.Command{
-		Use:   "sensu-go-mem-check",
-		Short: "The Sensu Go check for system MEM usage",
+		Use:   "sensu-go-memory-checks",
+		Short: "The Sensu Go check for system memory usage",
 		RunE:  run,
 	}
 
@@ -39,13 +39,13 @@ func configureRootCommand() *cobra.Command {
 		"warning",
 		"w",
 		"75",
-		"Warning value for system mem.")
+		"Warning used percentage for system memory.")
 
 	cmd.Flags().StringVarP(&critical,
 		"critical",
 		"c",
 		"90",
-		"Critical value for system mem")
+		"Critical used percentage for system memory")
 		
 	return cmd
 }
@@ -63,11 +63,11 @@ func run(cmd *cobra.Command, args []string) error {
 	
 	event := &types.Event{}
 	
-	return memUsed(event)
+	return checkMem(event)
 }
 
 //Here we start the meat of what we do.
-func memUsed(event *types.Event) error {
+func checkMem(event *types.Event) error {
 	
 	//Setting "CheckUptime" as a constant
 	const checkName = "CheckMem"
