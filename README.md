@@ -68,10 +68,6 @@ spec:
   - system
 ```
 
-## Example Output
-
-![screenshot_of_check_result](http://share.sachshaus.net/ddbeec586345/Screen%252520Shot%2525202019-07-29%252520at%25252011.05.48%252520PM.png)
-
 ## Usage Examples
 
 ### Command line help
@@ -97,10 +93,9 @@ This project uses `gopsutil`, and is thus largely dependent on the systems that 
 * FreeBSD
 * OpenBSD
 * Mac OS X
-* Windows (states as not supported, but I've confirmed that it is)
+* Windows
 * Solaris
 
-:)
 
 ## Contributing
 
