@@ -1,5 +1,5 @@
 # Sensu Go Memory  Checks
-[![Bonsai Asset Badge](https://img.shields.io/badge/Sensu%20Go%20Memory %20Checks-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/asachs01/sensu-go-memory-checks) [![TravisCI Build Status](https://travis-ci.org/asachs01/sensu-go-memory-checks.svg?branch=master)](https://travis-ci.org/asachs01/sensu-go-memory-checks)
+[![Bonsai Asset Badge](https://img.shields.io/badge/Sensu%20Go%20Memory%20Checks-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/asachs01/sensu-go-memory-checks) [![TravisCI Build Status](https://travis-ci.org/asachs01/sensu-go-memory-checks.svg?branch=master)](https://travis-ci.org/asachs01/sensu-go-memory-checks)
 
 This plugin provides checks for system memory for Sensu Go. 
 
