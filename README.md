@@ -61,7 +61,7 @@ spec:
   publish: true
   output_metric_format: nagios_perfdata
   output_metric_handlers:
-  - infuxdb
+  - influxdb
   handlers:
   - slack
   subscriptions:
