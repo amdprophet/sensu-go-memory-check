@@ -36,7 +36,7 @@ Flags:
 
 ```bash
 ./sensu-go-memory-check
-CheckCPU OK - value = 39.50 | system_cpu=39.50
+CheckMem OK - value = 63.84 | system_memory_used=63.84
 ```
 
 ## Configuration
